@@ -1,0 +1,71 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	background-color: rgba(154, 55, 116, 1);
+	max-height: 120px;
+}
+
+#heading {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#heading .container {
+	position: relative;
+	font-family: 'Cookie', cursive;
+	font-size: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+}
+
+#heading .container h1 {
+	text-align: center;
+}
+
+#banner {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 500px;
+	background: url("https://assets.marthastewartweddings.com/styles/wmax-1500/d46/dinner-table-reception-000032540013-mwds110864/dinner-table-reception-000032540013-mwds110864_horiz.jpg?itok=r13iE6kF") center center no-repeat;
+	background-size: cover;
+}
+
+nav {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 40px;
+	background-color: rgba(196, 90, 155, 1);
+	color: white;
+	font-size: 20px;
+	position: absolute;
+}
+
+nav li {
+	display: inline;
+	text-align: center;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: blue;
+}
+
+nav li a {
+	color: white;
+	text-align: center;
+	padding: 10px 5px;
+	background-color: green;
+
+}
+
+nav li: last-child {
+	padding-right: 0;
+}
