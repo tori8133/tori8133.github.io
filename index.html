@@ -2,22 +2,46 @@
 layout: default
 ---
 
-<div class="home">
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Maggie-Leigh Wedding Hire</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Cookie|Emilys+Candy" rel="stylesheet">
 
-  <h1 class="page-heading">Posts</h1>
+</head>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<body>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+	<header>
+		<div id="heading">
+			<div class="container">
+				<h1>Maggie-Leigh Wedding Hire</h1>
+			</div>
+		</div>
+	</header> 
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+	<main>
+		<!-- Banner -->
+		<div id="banner"></div>
 
-</div>
+		<!-- Navigation Bar -->
+		<nav>
+			<ul>
+				<li><a href="#">DIY Packages</a></li>
+				<li><a href="#">Our Services</a></li>
+				<li><a href="#">Gallery</a></li>
+				<li><a href="#">Get a Quote</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+
+	</main>
+
+	<footer>
+		
+	</footer>
+
+</body>
+</html>
